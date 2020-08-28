@@ -1,0 +1,27 @@
+$primary: #94b3d6;
+$background: #f8f8f8;
+$text-primary: #000000;
+$text-secondary: #3e3e3e;
+$surface: #e5e5e5;
+
+.card_container {
+  text-decoration: none;
+  color: $text-secondary;
+  background: $surface;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 50rem;
+  height: 15rem;
+  border-radius: 10px 10px 0px 0px;
+}

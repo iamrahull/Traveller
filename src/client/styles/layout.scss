@@ -1,0 +1,67 @@
+$bodyText: 18px;
+$primary: #94b3d6;
+$background: #f8f8f8;
+$text-primary: #000000;
+$text-secondary: #3e3e3e;
+$surface: #e5e5e5;
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+:root {
+  font-size: $bodyText;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  background: $background;
+  padding: 0;
+  margin: 0;
+  color: $text-secondary;
+}
+
+header {
+  grid-area: nav;
+  background: $primary;
+  color: $background;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.query {
+  grid-area: query;
+  padding: 4rem;
+}
+
+.result {
+  grid-area: result;
+  padding: 4rem;
+}
+
+footer {
+  grid-area: footer;
+  padding: 1rem;
+  text-align: center;
+  background: $text-secondary;
+  color: $background;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100vh;
+  grid-template-areas:
+    "nav nav nav nav nav"
+    "query query result result result"
+    "query query result result result"
+    "footer footer footer footer footer";
+
+  @media only screen and (max-width: 550px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav"
+      "query"
+      "result"
+      "footer";
+  }
+}
