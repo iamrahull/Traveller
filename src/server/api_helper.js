@@ -9,7 +9,8 @@ const geonameBaseURL = "http://api.geonames.org/geocodeJSON?q=";
 const pixabayBaseURL = "https://pixabay.com/api/";
 
 const fetchGeoLocation = async (place) => {
-  const API_KEY = process.env.GEONAME_API_KEY;
+ // env loc const API_KEY = process.env.GEONAME_API_KEY;
+  const API_KEY ="cesur";
   const url = `${geonameBaseURL}${place}&username=${API_KEY}`;
   const result = await handleAPIRequest(url);
 
@@ -17,7 +18,8 @@ const fetchGeoLocation = async (place) => {
 };
 
 const fetchWeather = async (lat, lon, days) => {
-  const API_KEY = process.env.WEATHER_API_KEY;
+ // env loc const API_KEY = process.env.WEATHER_API_KEY;
+  const API_KEY = "9290d95703a84037a6ab7b1886d095d8";
   const url = `${weatherBaseURL}lat=${lat}&lon=${lon}&days=${days}&key=${API_KEY}`;
   const result = await handleAPIRequest(url);
 
@@ -25,7 +27,8 @@ const fetchWeather = async (lat, lon, days) => {
 };
 
 const fetchImage = async (place) => {
-  const API_KEY = process.env.PIXABAY_API_KEY;
+  //env loc const API_KEY = process.env.PIXABAY_API_KEY;
+  const API_KEY = "17711924-c7e31f3b452ce1df400b210e4";
   const url = `${pixabayBaseURL}?key=${API_KEY}&q=${place}&per_page=3&page=1`;
   const result = await handleAPIRequest(url);
 

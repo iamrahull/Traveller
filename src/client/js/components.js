@@ -10,7 +10,7 @@ const tripItem = (result) => {
         <span id="result_date">Departing: ${result.date}</span>
         <br />
         <br />
-        <span>⛅ Typical Weather for then:</span>
+        <span>⛅ Typical Weather on Visiting day:</span>
         <br />
         <span>
           High: <span id="result_temp_high">${result.high_temp}</span> | Low:
