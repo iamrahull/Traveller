@@ -2,10 +2,10 @@ Udacity Capstone
 
 This project is the final one submitted to udacity front-end nanodegree.This project aims to give us the opportunity to put all of the skills that we have learnt into one project to build your own custom travel app. This project helps people find weather forecast for planning in future.
 
-![FrontPage] (https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/FrontPage.jpg?raw=true)
-![QueryForParis] (https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/Query%20For%20Paris.jpg?raw=true)
-![QueryForNYC] (https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/Query%20for%20New%20York%20City.jpg?raw=true)
-![SavedLocations] (https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/Viewing%20Saved%20Locations.jpg?raw=true)
+![FrontPage](https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/FrontPage.jpg?raw=true)
+![QueryForParis](https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/Query%20For%20Paris.jpg?raw=true)
+![QueryForNYC](https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/Query%20for%20New%20York%20City.jpg?raw=true)
+![SavedLocations](https://github.com/iamrahull/Traveller/blob/master/Project%20ScreenShots/Viewing%20Saved%20Locations.jpg?raw=true)
 
  Pre-requisites
 
