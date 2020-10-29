@@ -1,4 +1,4 @@
-Udacity Capstone
+Traveller
 
  This project helps people find weather forecast for planning in future.
 
